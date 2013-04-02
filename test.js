@@ -14,11 +14,3 @@ MeCab.wakachi(testWord, function(err, result) {
 	console.log('非同期:')
 	console.log(result);
 });
-
-// 同期版
-console.log('同期:')
-console.log( MeCab.parseSync(testWord) );
-
-// 同期版
-console.log('同期:')
-console.log( MeCab.wakachiSync(testWord) );
